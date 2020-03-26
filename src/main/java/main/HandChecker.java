@@ -59,15 +59,15 @@ public class HandChecker {
 		
 		Collections.sort(hand);
 			
-		checkRoyalFlush checkRoyalFlush = new checkRoyalFlush(hand);
-		checkStraightFlush checkStraightFlush = new checkStraightFlush(hand);
-		checkFourOfAKind checkFourOfAKind = new checkFourOfAKind(hand);
-		checkFullHouse checkFullHouse = new checkFullHouse(hand);
-		checkFlush checkFlush = new checkFlush(hand);
-		checkStraight checkStraight = new checkStraight(hand);
-		checkThreeOfAKind checkThreeOfAKind = new checkThreeOfAKind(hand);
-		checkTwoPairs checkTwoPairs = new checkTwoPairs(hand);
-		checkPair checkPair = new checkPair(hand);
+		CheckRoyalFlush checkRoyalFlush = new CheckRoyalFlush(hand);
+		CheckStraightFlush checkStraightFlush = new CheckStraightFlush(hand);
+		CheckFourOfAKind checkFourOfAKind = new CheckFourOfAKind(hand);
+		CheckFullHouse checkFullHouse = new CheckFullHouse(hand);
+		CheckFlush checkFlush = new CheckFlush(hand);
+		CheckStraight checkStraight = new CheckStraight(hand);
+		CheckThreeOfAKind checkThreeOfAKind = new CheckThreeOfAKind(hand);
+		CheckTwoPairs checkTwoPairs = new CheckTwoPairs(hand);
+		CheckPair checkPair = new CheckPair(hand);
 
 		if(!checkRoyalFlush.check().equals("")) {return checkRoyalFlush.check();}
 		if(!checkStraightFlush.check().equals("")) {return checkStraightFlush.check();}

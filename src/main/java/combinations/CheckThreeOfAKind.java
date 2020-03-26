@@ -2,10 +2,10 @@ package combinations;
 
 import java.util.ArrayList;
 
-public class checkThreeOfAKind {
+public class CheckThreeOfAKind {
 	public ArrayList<String> hand;
 	
-	public checkThreeOfAKind(ArrayList<String> hand) {
+	public CheckThreeOfAKind(ArrayList<String> hand) {
 		this.hand = hand;
 	}
 	

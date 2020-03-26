@@ -2,10 +2,10 @@ package combinations;
 
 import java.util.ArrayList;
 
-public class checkFourOfAKind {
+public class CheckPair {
 	public ArrayList<String> hand;
 	
-	public checkFourOfAKind(ArrayList<String> hand) {
+	public CheckPair(ArrayList<String> hand) {
 		this.hand = hand;
 	}
 	
@@ -14,15 +14,15 @@ public class checkFourOfAKind {
 		char lastChar = ' ';
 		char card = ' ';
 		for(String a : hand) {
-			if (a.charAt(0) == lastChar && (card == a.charAt(0) || card == ' ')) {
+			if (a.charAt(0) == lastChar) {
 				sameCount++; 
 				card = a.charAt(0);
 			}
 			else lastChar = a.charAt(0);
-			if (sameCount == 4) 
-				       return 298+String.valueOf(card);     
+			if (sameCount == 2) 
+				       return 292+String.valueOf(card); 
 		}
-		
+				
 		return "";
 	}
 }

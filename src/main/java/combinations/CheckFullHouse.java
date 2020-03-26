@@ -2,10 +2,10 @@ package combinations;
 
 import java.util.ArrayList;
 
-public class checkFullHouse {
+public class CheckFullHouse {
 	public ArrayList<String> hand;
 	
-	public checkFullHouse(ArrayList<String> hand) {
+	public CheckFullHouse(ArrayList<String> hand) {
 		this.hand = hand;
 	}
 	

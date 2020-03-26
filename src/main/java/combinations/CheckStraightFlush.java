@@ -2,10 +2,10 @@ package combinations;
 
 import java.util.ArrayList;
 
-public class checkStraightFlush {
+public class CheckStraightFlush {
 	public ArrayList<String> hand;
 	
-	public checkStraightFlush(ArrayList<String> hand) {
+	public CheckStraightFlush(ArrayList<String> hand) {
 		this.hand = hand;
 	}
 	

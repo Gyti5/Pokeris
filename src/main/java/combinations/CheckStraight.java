@@ -2,10 +2,10 @@ package combinations;
 
 import java.util.ArrayList;
 
-public class checkStraight {
+public class CheckStraight {
 	public ArrayList<String> hand;
 	
-	public checkStraight(ArrayList<String> hand) {
+	public CheckStraight(ArrayList<String> hand) {
 		this.hand = hand;
 	}
 	

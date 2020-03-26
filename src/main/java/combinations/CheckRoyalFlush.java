@@ -2,10 +2,10 @@ package combinations;
 
 import java.util.ArrayList;
 
-public class checkRoyalFlush {
+public class CheckRoyalFlush {
 	public ArrayList<String> hand;
 	
-	public checkRoyalFlush(ArrayList<String> hand) {
+	public CheckRoyalFlush(ArrayList<String> hand) {
 		this.hand = hand;
 	}
 	
