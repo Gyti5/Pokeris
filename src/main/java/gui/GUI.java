@@ -1,6 +1,9 @@
-package com.DarboUzduotis.Pokeris;
+package gui;
 
 import javax.swing.*;
+
+import main.FileReader;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
